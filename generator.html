@@ -272,6 +272,8 @@
             document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
             document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
             document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+
+            
         }
         
         // 显示隐藏消息
@@ -304,8 +306,6 @@
             '李泽鑫'：'亲爱的泽鑫哥哥，2026祝你'
             '默认': '感谢你的到来，2026年愿你平安喜乐，幸福安康！'
         };
-        };
-        
         nameInput.addEventListener('input', function() {
             const name = this.value.trim();
             
